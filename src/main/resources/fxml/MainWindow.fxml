@@ -17,16 +17,11 @@
             <Insets top="50.0" />
          </padding>
       </Button>
-      <Button id="bedroomButton" fx:id="bedroomBtn" layoutX="241.0" layoutY="14.0" mnemonicParsing="false" onAction="#bedroomBtnAction" prefHeight="100.0" prefWidth="91.0" text="Bedroom">
-         <padding>
-            <Insets top="70.0" />
-         </padding>
-      </Button>
-      <Button id="doorButton" fx:id="doorBtn" layoutX="332.0" layoutY="14.0" mnemonicParsing="false" onAction="#doorBtnAction" prefHeight="100.0" prefWidth="91.0" styleClass="buttonB" stylesheets="@../css/style.css" text="Door" textAlignment="CENTER">
+      <Button id="doorButton" fx:id="doorBtn" layoutX="423.0" layoutY="14.0" mnemonicParsing="false" onAction="#doorBtnAction" prefHeight="100.0" prefWidth="91.0" text="Door" textAlignment="CENTER">
          <padding>
             <Insets top="50.0" />
          </padding></Button>
-      <Button id="lightButton" fx:id="lightBtn" layoutX="423.0" layoutY="14.0" mnemonicParsing="false" onAction="#lightBtnAction" prefHeight="100.0" prefWidth="91.0" styleClass="buttonB" stylesheets="@../css/style.css" text="Light">
+      <Button id="lightButton" fx:id="lightBtn" layoutX="332.0" layoutY="14.0" mnemonicParsing="false" onAction="#lightBtnAction" prefHeight="100.0" prefWidth="91.0" styleClass="buttonB" stylesheets="@../css/style.css" text="Light">
          <padding>
             <Insets top="50.0" />
          </padding></Button>
@@ -48,12 +43,7 @@
             <Insets top="50.0" />
          </padding>
       </Button>
-      <Button id="gateButton" fx:id="gateBtn" layoutX="514.0" layoutY="114.0" mnemonicParsing="false" onAction="#gateBtnAction" prefHeight="100.0" prefWidth="91.0" stylesheets="@../css/style.css" text="Main Gate">
-         <padding>
-            <Insets top="50.0" />
-         </padding>
-      </Button>
-      <Button id="extLightButton" fx:id="extLightBtn" layoutX="423.0" layoutY="114.0" mnemonicParsing="false" onAction="#extlLghtBtnAction" prefHeight="100.0" prefWidth="91.0" stylesheets="@../css/style.css" text="Extern Light">
+      <Button id="gateButton" fx:id="gateBtn" layoutX="241.0" layoutY="14.0" mnemonicParsing="false" onAction="#gateBtnAction" prefHeight="100.0" prefWidth="91.0" stylesheets="@../css/style.css" text="Main Gate">
          <padding>
             <Insets top="50.0" />
          </padding>

@@ -3,6 +3,7 @@ package com.miron.iot.piclient;
 import com.miron.iot.piclient.controller.LoginWindowController;
 import com.miron.iot.piclient.controller.MainController;
 import com.miron.iot.piclient.crud.SensorStatusCrud;
+import com.miron.iot.piclient.http.RelayClient;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -14,12 +15,7 @@ import java.net.URL;
 public class FxBootstrap extends Application {
 
     protected static void startup() {
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                launch(FxBootstrap.class, StaticBridge.ARGS);
-            }
-        }).start();
+        new Thread(() -> launch(FxBootstrap.class, StaticBridge.ARGS)).start();
     }
 
     @Override
@@ -34,7 +30,7 @@ public class FxBootstrap extends Application {
         System.exit(0);
     }
 
-    private Scene getLoginScene(final Stage primaryStage) throws Exceptiond {
+    private Scene getLoginScene(final Stage primaryStage) throws Exception {
         final FXMLLoader loginLoader = new FXMLLoader(getResource("/fxml/LoginWindow.fxml"));
         loginLoader.setController(new LoginWindowController(this, primaryStage));
 
@@ -64,4 +60,7 @@ public class FxBootstrap extends Application {
         return StaticBridge.APP_CONTEXT.getBean(SensorStatusCrud.class);
     }
 
+    public RelayClient getRelayClient() {
+        return StaticBridge.APP_CONTEXT.getBean(RelayClient.class);
+    }
 }

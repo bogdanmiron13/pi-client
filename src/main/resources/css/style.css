@@ -12,27 +12,27 @@
     -fx-background-color: #414a4c;
 }
 
-#doorBtnActionActive{
-    -fx-background-color: #5a75ff;
-}
-.button {
-    -fx-text-fill: darkorange;
-    -fx-border-color: rgba(255, 255, 255, .80);
-    -fx-border-radius: 8;
-    -fx-padding: 70 1 1 1;
-    -fx-font: bold italic 10pt "LucidaBrightDemiBold";
+/*#doorBtnActionActive{*/
+    /*-fx-background-color: #5a75ff;*/
+/*}*/
+/*.button {*/
+    /*-fx-text-fill: darkorange;*/
+    /*-fx-border-color: rgba(255, 255, 255, .80);*/
+    /*-fx-border-radius: 8;*/
+    /*-fx-padding: 70 1 1 1;*/
+    /*-fx-font: bold italic 10pt "LucidaBrightDemiBold";*/
 
-}
+/*}*/
 
-.buttonB {
-    -fx-text-fill: darkblue;
-    -fx-border-color: rgba(255, 255, 255, .80);
-    -fx-border-radius: 8;
-    -fx-padding: 70 1 1 1;
-    -fx-font: bold italic 10pt "LucidaBrightDemiBold";
-    -fx-background-image: url("/images/door_closed.png");
-    -fx-background-size: cover;
-}
+/*.buttonB {*/
+    /*-fx-text-fill: darkblue;*/
+    /*-fx-border-color: rgba(255, 255, 255, .80);*/
+    /*-fx-border-radius: 8;*/
+    /*-fx-padding: 70 1 1 1;*/
+    /*-fx-font: bold italic 10pt "LucidaBrightDemiBold";*/
+    /*-fx-background-image: url("/images/door_closed.png");*/
+    /*-fx-background-size: cover;*/
+/*}*/
 
 /*#bedroomButton{*/
      /*-fx-background-image: url("/resources/icons/curtain_up.png");*/
@@ -49,7 +49,7 @@
     /*-fx-background-size: cover;*/
 /*}*/
 
-#doorBtn:pressed{
-    -fx-background-image: url("/images/door_open.png");
-    -fx-background-size: cover;
-}
+/*#doorBtn:pressed{*/
+    /*-fx-background-image: url("/images/door_open.png");*/
+    /*-fx-background-size: cover;*/
+/*}*/
